@@ -1,0 +1,26 @@
+# SPDX-License-Identifier: Apache-2.0
+# SPDX-FileCopyrightText: 2026 stack-cpu-0 contributors
+
+# sbt and Scala tooling
+target/
+project/target/
+project/project/
+.bsp/
+.bloop/
+.metals/
+
+# Editors
+.idea/
+.vscode/
+*.iml
+
+# Generated hardware and simulation artifacts
+generated/
+test_run_dir/
+obj_dir/
+*.vcd
+*.fst
+
+# Operating system
+.DS_Store
+Thumbs.db
